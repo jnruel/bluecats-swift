@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA202A82FC956F4B5BB79A1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6C0CAF0E8F4B0FB493ABA5 /* libPods.a */; };
 		C974F5201A730545007453BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974F51F1A730545007453BC /* AppDelegate.swift */; };
 		C974F5231A730545007453BC /* bluecats_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C974F5211A730545007453BC /* bluecats_swift.xcdatamodeld */; };
 		C974F5251A730545007453BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974F5241A730545007453BC /* ViewController.swift */; };
@@ -27,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5458351A6C54DF3E462806CC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6D6C0CAF0E8F4B0FB493ABA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A562222AB30A3CA415760B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C974F51A1A730545007453BC /* bluecats-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluecats-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C974F51E1A730545007453BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C974F51F1A730545007453BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		C974F5321A730545007453BC /* bluecats-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluecats-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C974F5371A730545007453BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C974F5381A730545007453BC /* bluecats_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluecats_swiftTests.swift; sourceTree = "<group>"; };
+		C974F5421A73097B007453BC /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA202A82FC956F4B5BB79A1D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3083238A8868B2759F7CE2DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D6C0CAF0E8F4B0FB493ABA5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C974F5111A730545007453BC = {
 			isa = PBXGroup;
 			children = (
+				C974F5421A73097B007453BC /* Bridging-Header.h */,
 				C974F51C1A730545007453BC /* bluecats-swift */,
 				C974F5351A730545007453BC /* bluecats-swiftTests */,
 				C974F51B1A730545007453BC /* Products */,
+				CF53232B2646A15F1369F470 /* Pods */,
+				3083238A8868B2759F7CE2DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +132,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CF53232B2646A15F1369F470 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5458351A6C54DF3E462806CC /* Pods.debug.xcconfig */,
+				86A562222AB30A3CA415760B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C974F53C1A730545007453BC /* Build configuration list for PBXNativeTarget "bluecats-swift" */;
 			buildPhases = (
+				2D2C64BCC4C2D1894B119277 /* Check Pods Manifest.lock */,
 				C974F5161A730545007453BC /* Sources */,
 				C974F5171A730545007453BC /* Frameworks */,
 				C974F5181A730545007453BC /* Resources */,
+				7F616B3268ABD24CA846927C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +192,11 @@
 				TargetAttributes = {
 					C974F5191A730545007453BC = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					C974F5311A730545007453BC = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -209,6 +242,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D2C64BCC4C2D1894B119277 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F616B3268ABD24CA846927C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C974F5161A730545007453BC /* Sources */ = {
@@ -340,21 +406,25 @@
 		};
 		C974F53D1A730545007453BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5458351A6C54DF3E462806CC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "bluecats-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		C974F53E1A730545007453BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A562222AB30A3CA415760B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "bluecats-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +481,7 @@
 				C974F53E1A730545007453BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C974F53F1A730545007453BC /* Build configuration list for PBXNativeTarget "bluecats-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +490,7 @@
 				C974F5411A730545007453BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
