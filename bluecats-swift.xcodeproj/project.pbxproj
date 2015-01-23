@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C974F5201A730545007453BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974F51F1A730545007453BC /* AppDelegate.swift */; };
+		C974F5231A730545007453BC /* bluecats_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C974F5211A730545007453BC /* bluecats_swift.xcdatamodeld */; };
+		C974F5251A730545007453BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974F5241A730545007453BC /* ViewController.swift */; };
+		C974F5281A730545007453BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C974F5261A730545007453BC /* Main.storyboard */; };
+		C974F52A1A730545007453BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C974F5291A730545007453BC /* Images.xcassets */; };
+		C974F52D1A730545007453BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C974F52B1A730545007453BC /* LaunchScreen.xib */; };
+		C974F5391A730545007453BC /* bluecats_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974F5381A730545007453BC /* bluecats_swiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C974F5331A730545007453BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C974F5121A730545007453BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C974F5191A730545007453BC;
+			remoteInfo = "bluecats-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C974F51A1A730545007453BC /* bluecats-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluecats-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C974F51E1A730545007453BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C974F51F1A730545007453BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C974F5221A730545007453BC /* bluecats_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bluecats_swift.xcdatamodel; sourceTree = "<group>"; };
+		C974F5241A730545007453BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C974F5271A730545007453BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C974F5291A730545007453BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C974F52C1A730545007453BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C974F5321A730545007453BC /* bluecats-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluecats-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C974F5371A730545007453BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C974F5381A730545007453BC /* bluecats_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluecats_swiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C974F5171A730545007453BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C974F52F1A730545007453BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C974F5111A730545007453BC = {
+			isa = PBXGroup;
+			children = (
+				C974F51C1A730545007453BC /* bluecats-swift */,
+				C974F5351A730545007453BC /* bluecats-swiftTests */,
+				C974F51B1A730545007453BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C974F51B1A730545007453BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C974F51A1A730545007453BC /* bluecats-swift.app */,
+				C974F5321A730545007453BC /* bluecats-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C974F51C1A730545007453BC /* bluecats-swift */ = {
+			isa = PBXGroup;
+			children = (
+				C974F51F1A730545007453BC /* AppDelegate.swift */,
+				C974F5241A730545007453BC /* ViewController.swift */,
+				C974F5261A730545007453BC /* Main.storyboard */,
+				C974F5291A730545007453BC /* Images.xcassets */,
+				C974F52B1A730545007453BC /* LaunchScreen.xib */,
+				C974F5211A730545007453BC /* bluecats_swift.xcdatamodeld */,
+				C974F51D1A730545007453BC /* Supporting Files */,
+			);
+			path = "bluecats-swift";
+			sourceTree = "<group>";
+		};
+		C974F51D1A730545007453BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C974F51E1A730545007453BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C974F5351A730545007453BC /* bluecats-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C974F5381A730545007453BC /* bluecats_swiftTests.swift */,
+				C974F5361A730545007453BC /* Supporting Files */,
+			);
+			path = "bluecats-swiftTests";
+			sourceTree = "<group>";
+		};
+		C974F5361A730545007453BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C974F5371A730545007453BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C974F5191A730545007453BC /* bluecats-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C974F53C1A730545007453BC /* Build configuration list for PBXNativeTarget "bluecats-swift" */;
+			buildPhases = (
+				C974F5161A730545007453BC /* Sources */,
+				C974F5171A730545007453BC /* Frameworks */,
+				C974F5181A730545007453BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bluecats-swift";
+			productName = "bluecats-swift";
+			productReference = C974F51A1A730545007453BC /* bluecats-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C974F5311A730545007453BC /* bluecats-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C974F53F1A730545007453BC /* Build configuration list for PBXNativeTarget "bluecats-swiftTests" */;
+			buildPhases = (
+				C974F52E1A730545007453BC /* Sources */,
+				C974F52F1A730545007453BC /* Frameworks */,
+				C974F5301A730545007453BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C974F5341A730545007453BC /* PBXTargetDependency */,
+			);
+			name = "bluecats-swiftTests";
+			productName = "bluecats-swiftTests";
+			productReference = C974F5321A730545007453BC /* bluecats-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C974F5121A730545007453BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Joseph Ruel";
+				TargetAttributes = {
+					C974F5191A730545007453BC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C974F5311A730545007453BC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C974F5191A730545007453BC;
+					};
+				};
+			};
+			buildConfigurationList = C974F5151A730545007453BC /* Build configuration list for PBXProject "bluecats-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C974F5111A730545007453BC;
+			productRefGroup = C974F51B1A730545007453BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C974F5191A730545007453BC /* bluecats-swift */,
+				C974F5311A730545007453BC /* bluecats-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C974F5181A730545007453BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974F5281A730545007453BC /* Main.storyboard in Resources */,
+				C974F52D1A730545007453BC /* LaunchScreen.xib in Resources */,
+				C974F52A1A730545007453BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C974F5301A730545007453BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C974F5161A730545007453BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974F5251A730545007453BC /* ViewController.swift in Sources */,
+				C974F5231A730545007453BC /* bluecats_swift.xcdatamodeld in Sources */,
+				C974F5201A730545007453BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C974F52E1A730545007453BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974F5391A730545007453BC /* bluecats_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C974F5341A730545007453BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C974F5191A730545007453BC /* bluecats-swift */;
+			targetProxy = C974F5331A730545007453BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C974F5261A730545007453BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C974F5271A730545007453BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C974F52B1A730545007453BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C974F52C1A730545007453BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C974F53A1A730545007453BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C974F53B1A730545007453BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C974F53D1A730545007453BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bluecats-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C974F53E1A730545007453BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bluecats-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C974F5401A730545007453BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bluecats-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluecats-swift.app/bluecats-swift";
+			};
+			name = Debug;
+		};
+		C974F5411A730545007453BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bluecats-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluecats-swift.app/bluecats-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C974F5151A730545007453BC /* Build configuration list for PBXProject "bluecats-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C974F53A1A730545007453BC /* Debug */,
+				C974F53B1A730545007453BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C974F53C1A730545007453BC /* Build configuration list for PBXNativeTarget "bluecats-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C974F53D1A730545007453BC /* Debug */,
+				C974F53E1A730545007453BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C974F53F1A730545007453BC /* Build configuration list for PBXNativeTarget "bluecats-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C974F5401A730545007453BC /* Debug */,
+				C974F5411A730545007453BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C974F5211A730545007453BC /* bluecats_swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C974F5221A730545007453BC /* bluecats_swift.xcdatamodel */,
+			);
+			currentVersion = C974F5221A730545007453BC /* bluecats_swift.xcdatamodel */;
+			path = bluecats_swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C974F5121A730545007453BC /* Project object */;
+}
